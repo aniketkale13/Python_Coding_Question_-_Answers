@@ -1,0 +1,8 @@
+number = input().split()
+N1 = int(number[0])
+N2 = int(number[1])
+Z = N1 + N2 
+if Z % 2 ==  0:
+    print('Sum belongs to Even')
+else:
+    print('Sum belongs to Odd')
