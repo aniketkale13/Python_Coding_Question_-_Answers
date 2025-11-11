@@ -1,0 +1,10 @@
+# 4. Next Greater Power of 2
+N = int(input())
+power = 1
+while power <= N:
+    power *= 2
+print(power)
+
+
+input  = 8 
+output = 16
