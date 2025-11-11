@@ -1,0 +1,7 @@
+# 5. Palindrome Check
+S = input()
+s = S[::-1]
+if S == s:
+    print("Palindrome")
+else:
+    print("Not Plaindrome")
